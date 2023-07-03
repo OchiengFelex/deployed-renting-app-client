@@ -1,0 +1,97 @@
+.main-contact {
+    background-color: #3FEEE6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 97%;
+    height: 130vh;
+    border-radius: 8px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.contact-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.form-login {
+    width: 40%;
+    border-radius: 8px;
+    margin-left: 20rem;
+    display: inline-block;
+    background-color: #E3E2DF;
+    box-shadow: 5px 5px 15px #f9004d;
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: bolder;
+    color: #f9004d;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+h4 {
+    font-family: Arial;
+    font-weight: bolder;
+    color: #1A1A1D;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-login {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form-login label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A1A1D;
+}
+
+form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: #E3E2DF;
+    color: #1A1A1D;
+
+}
+
+input:hover {
+    background-color: gold;
+    color: #1A1A1D;
+}
+
+#content {
+    width: 40%;
+    border-radius: 8px;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    display: inline-block;
+    background-color: #E3E2DF;
+    box-shadow: 5px 5px 15px #f9004d;
+}
+
+h3 {
+    font-family: Arial;
+    font-weight: bolder;
+    color: #1A1A1D;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
