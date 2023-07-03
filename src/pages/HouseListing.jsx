@@ -12,7 +12,7 @@ function HouseListing() {
     <div className="card-container">
     <div className="cards">
         <div className="image">
-    <img src='./src/image/card 1.jpg'/>
+    <img src='/src/card 1.jpg'/>
         </div>
         <div className="title">
     <h2>Serene Haven Villas</h2>
@@ -29,7 +29,7 @@ function HouseListing() {
     </div>
     <div className="cards">
         <div className="image">
-    <img src='./src/image/loby 4.jpg'/>
+    <img src='/src/loby 4.jpg'/>
         </div>
         <div className="title">
     <h2>Metropolitan Apartments</h2>
@@ -49,7 +49,7 @@ function HouseListing() {
     
     <div className="cards">
         <div className="image">
-    <img src='./src/image/card 2.jpg'/>
+    <img src='/src/card 2.jpg'/>
         </div>
         <div className="title">
     <h2>Harmony Apartments</h2>
@@ -68,7 +68,7 @@ function HouseListing() {
 
     <div className="cards">
         <div className="image">
-    <img src='./src/image/card 3.jpg'/>
+    <img src='/src/card 3.jpg'/>
         </div>
         <div className="title">
     <h2>Riverside Flats</h2>
@@ -86,7 +86,7 @@ function HouseListing() {
 
     <div className="cards">
         <div className="image">
-    <img src='./src/image/card 4.jpg'/>
+    <img src='/src/card 4.jpg'/>
         </div>
         <div className="title">
     <h2>Tranquil Villa Retreat</h2>
@@ -106,7 +106,7 @@ function HouseListing() {
 
     <div className="cards">
         <div className="image">
-    <img src='./src/image/card 5.jpg'/>
+    <img src='/src/card 5.jpg'/>
         </div>
         <div className="title">
     <h2>Coastal Breeze Flats</h2>
@@ -126,7 +126,7 @@ function HouseListing() {
 
     <div className="cards">
         <div className="image">
-    <img src='./src/image/lby 1.jpg'/>
+    <img src='/src/lby 1.jpg'/>
         </div>
         <div className="title">
     <h2>Heights Apartments</h2>
@@ -144,7 +144,7 @@ function HouseListing() {
 
     <div className="cards">
         <div className="image">
-    <img src='./src/image/loby 5.jpg'/>
+    <img src='/src/loby 5.jpg'/>
         </div>
         <div className="title">
     <h2>Garden Grove Villas</h2>
@@ -163,7 +163,7 @@ function HouseListing() {
     
     <div className="cards">
         <div className="image">
-    <img src='./src/image/loby 2.jpg'/>
+    <img src='/src/loby 2.jpg'/>
         </div>
         <div className="title">
     <h2>Oasis Villas</h2>
