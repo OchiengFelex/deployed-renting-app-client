@@ -3,6 +3,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'; // Import axios, not Axios
+import { apiDomain } from '../../utils/utils';
 import './SignUp.css';
 
 function SignUp() {
@@ -20,7 +21,7 @@ function SignUp() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm({ resolver: yupResolver(schema) });
 
   const confirmSubmission = (data) => {
-    axios.post("http://localhost:8081/auth/register", data)
+    axios.post(`${apiDomain}/auth/register`, data)
       .then((response) => {
         response.data.message && alert(response.data.message);
         console.log(response.data);

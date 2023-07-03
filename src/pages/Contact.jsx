@@ -4,6 +4,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'; // Import axios, not Axios
+import { apiDomain } from '../../utils/utils.jsx';
 import {Context} from "../components/context/userContext/Context.jsx";
 
 import { useContext } from 'react';
@@ -24,7 +25,7 @@ function Contact() {
       const { register, handleSubmit, formState: { errors }, reset } = useForm({ resolver: yupResolver(schema) });
 
       const Submission = (data) => {
-        axios.post("http://localhost:8081/auth/login", data)
+        axios.post(`${apiDomain}/auth/login`, data)
           .then((response) => {
             if (response){
                 dispatch({type: "LOGIN_SUCCESS", payload:response})

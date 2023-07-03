@@ -4,6 +4,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios';
+import { apiDomain } from '../../utils/utils';
 import './Booking.css'
 
 function Booking() {
@@ -19,7 +20,7 @@ function Booking() {
       const { register, handleSubmit, formState: { errors }, reset } = useForm({ resolver: yupResolver(schema) });
 
       const booking = (data) => {
-        axios.post("http://localhost:8081/bookings", data)
+        axios.post(`${apiDomain}/bookings`, data)
           .then((response) => {
             response.data.message && alert(response.data.message);
             console.log(response.data);
