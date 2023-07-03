@@ -15,7 +15,7 @@
     border-radius: 8px;
     color: #f9004d;
     background-size: cover;
-    animation: animate 17s ease-in-out infinite;
+    animation: animate 30s ease-in-out infinite;
 }
 
 @keyframes animate {
@@ -26,7 +26,7 @@
     } */
 
     100% {
-        background-image: url('/house.jpg');
+        background-image: url('/home p1.jpg');
     }
 
     20% {
