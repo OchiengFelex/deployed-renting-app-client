@@ -20,13 +20,13 @@ function Home() {
               Contact him today to learn more about real estate and homes for sale!</pre>
         </div> 
         <div className='tag' >
-        <img src='\src\home-1.jpeg' style={{
+        <img src='/home-1.jpeg' style={{
             width:'400px'
         }}/>
-        <img src='\src\home-2.jpeg'style={{
+        <img src='/home-2.jpeg'style={{
             width:'400px'
         }}/>
-        <img src='\src\home-3.jpeg'style={{
+        <img src='/home-3.jpeg'style={{
             width:'400px'
         }}/>
         </div>

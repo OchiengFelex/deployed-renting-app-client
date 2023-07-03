@@ -36,8 +36,8 @@ function Footer() {
                 </div>
 
                 <div className='footer-main'>
-          <img src='./src/assets/app-store1.png'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
-          <img src='./src/assets/play-store.png'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+          <img src='/app-store1.png'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+          <img src='/play-store.png'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
           <h4 style={{color:"white"}}>Phone support: +254-700-400-200</h4>
           <h4 style={{color:"white"}}>MON-FRI 9AM-5PM EST</h4>
           <button><a href='#'><Link to = "/Contact"> Contact us</Link></a></button> &nbsp; &nbsp; 
@@ -47,15 +47,15 @@ function Footer() {
                 
                 <div id='icons-two'>
                     <div style={{display:'flex',justifyContent:'space-evenly' ,gap:'5px'}}>
-                <img src='./src/assets/logo.webp' style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
-                <img src='./src/assets/property.jpeg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
-                <img src='./src/assets/H.PNG'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
-                <img src='./src/assets/forent.webp'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+                <img src='/logo.webp' style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+                <img src='/property.jpeg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+                <img src='/H.PNG'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+                <img src='/forent.webp'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
                 </div>
                 <pre>
                     <h3>Group member</h3>
-                <img src='./src/assets/edraw.svg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/><br/>
-                <img src='./src/assets/ufoto.svg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
+                <img src='/edraw.svg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/><br/>
+                <img src='/ufoto.svg'style={{with:'80px', height:'70px' , borderRadius:'8px'}}/>
                 </pre>
                 </div>
                 

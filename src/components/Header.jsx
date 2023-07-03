@@ -30,7 +30,7 @@ function Header() {
     <div className={`navbar ${isNavOpen ? 'nav-open' : ''}`}>
       <header>
         <div className='img1'>
-          <img src='/src/logo.webp' style={{ width: '80px', height: '70px', borderRadius: '8px' }} />
+          <img src='/logo.webp' style={{ width: '80px', height: '70px', borderRadius: '8px' }} />
         </div>
         <nav>
           <div className={`nav-icon ${isNavOpen ? 'nav-open' : ''}`} onClick={toggleNav}>

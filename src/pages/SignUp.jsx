@@ -73,7 +73,7 @@ function SignUp() {
         </form>
       </div>
       <div className='signup-content2'>
-        <img src='src\home-sweet-home.jpg' style={{ width: '100%', height: '120vh', paddingRight: '10px', borderRadius: '20px' }} />
+        <img src='/home-sweet-home.jpg' style={{ width: '100%', height: '120vh', paddingRight: '10px', borderRadius: '20px' }} />
       </div>
     </div>
   );

@@ -26,23 +26,23 @@
     } */
 
     100% {
-        background-image: url('/src/house.jpg');
+        background-image: url('/house.jpg');
     }
 
     20% {
-        background-image: url('/src/home.jpg');
+        background-image: url('/home.jpg');
     }
 
     40% {
-        background-image: url('/src/house.jpg');
+        background-image: url('/house.jpg');
     }
 
-    % {
-        background-image: url('/src/hp2.jpg');
+    60% {
+        background-image: url('/hp2.jpg');
     }
 
     80% {
-        background-image: url('/src/hp4.jpeg');
+        background-image: url('/hp4.jpeg');
     }
 }
 
